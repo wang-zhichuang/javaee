@@ -1,0 +1,5 @@
+（1）pom.xml中打包方式改为war
+（2）pom.xml添加tomcat，jstl依赖。
+（3）在配置文件中添加jsp前缀和后缀。配置文件有两种properties和yml，这里采用后者。
+（4）在src\main下添加webapp目录并建立页面。
+（5）控制器写法同以前一样。

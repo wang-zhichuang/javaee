@@ -1,0 +1,10 @@
+关于切入点表达式，需要好好练习才能深入理解其中含义。即使看的懂，但是写起来却非常麻烦，并没有想象中那么简单。
+
+任何通知（Advice）方法可以将第一个参数定义为 org.aspectj.lang.JoinPoint类型。JoinPoint接口提供了一系列有用的方法， 
+比如 getArgs() （返回方法参数）、getThis() （返回代理对象）、getTarget() （返回目标）、
+getSignature() （返回正在被通知的方法相关信息）和 toString() （打印出正在被通知的方法的有用信息。
+
+其中getSignature()返回的Signature对象可强制转换为MethodSignature，其功能非常强大，能获取包括参数名称在内的一切方法信息。
+
+ 
+Spring Aop详尽教程 http://blog.csdn.net/wangpeng047/article/details/8556800

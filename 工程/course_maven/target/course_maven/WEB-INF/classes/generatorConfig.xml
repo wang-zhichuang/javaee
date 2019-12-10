@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <classPathEntry location="C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.17.jar"/>
+    <context id="context1">
+
+<!--        &lt;!&ndash; 是否生成注释 &ndash;&gt;-->
+<!--        <commentGenerator>-->
+<!--            <property name="suppressDate" value="true"/>-->
+<!--            <property name="suppressAllComments" value="true"/>-->
+<!--        </commentGenerator>-->
+        <!-- 数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/course?allowPublicKeyRetrieval=true&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=GMT&amp;useSSL=false"
+                        userId="root" password="mysql" />
+
+        <!-- 生成的包名和工程名 -->
+        <javaModelGenerator targetPackage="entity"
+                            targetProject="src/main/java"/>
+        <!-- xml映射文件   -->
+        <sqlMapGenerator targetPackage="mapping"
+                         targetProject="src/main/java" />
+        <!--  mapper接口    -->
+        <javaClientGenerator targetPackage="dao"
+                             targetProject="src/main/java" type="XMLMAPPER" />
+
+        <!-- 数据库表 以及是否生成example-->
+        <table  tableName="course" domainObjectName="Course"
+                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+                enableSelectByExample="false" selectByExampleQueryId="false" >
+
+        </table>
+    </context>
+</generatorConfiguration>

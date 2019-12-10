@@ -1,0 +1,13 @@
+附件中资料说明：
+（1）springtest-ioc-xml工程：基于xml使用ioc
+（2）springtest-ioc-annotation：基于注解使用ioc
+（3）IOCDemo：ioc的简单实现。
+（4）课件
+要求
+（1）仿写例子（1）（2），叙述基于xml和注解使用ioc的步骤。
+（2）基于注解使用ioc时，controller、service、dao、普通bean使用的注解分别是什么？
+注解的value属性用来设置bean在ioc容器中的id，没加时默认值是什么？
+（3）依赖的资源前使用的注解有哪两个？它们的区别是什么？
+（4）从ioc容器中获取bean的语句是什么？
+（5）bean的作用域（单例、原型等）在xml和注解下如何设置？
+（6）看懂IOCDemo实例，理解并叙述ioc基本实现原理。

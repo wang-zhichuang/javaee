@@ -1,0 +1,5 @@
+1思路：使用Spring提供的JdbcTemplate类执行数据库操作。
+2关键步骤
+（1）在bean.xml中配置dataSource和JdbcTemplate。
+（2）在Dao中使用JdbcTemplate。
+（3）在JdbcTemplateTest中测试。

@@ -1,0 +1,4 @@
+思路：由Spring管理mybatis对象（自动生成dao接口对象）、管理事务。
+关键步骤：
+（1）bean.xml。。。
+(2) mybatis-config.xml。。。

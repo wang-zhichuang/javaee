@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .html
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/student?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT&useSSL=false
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: cn.oneseek.studentspringboot.vo
+server:
+  port: 8081

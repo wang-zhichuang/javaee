@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.oneseek.student.dao.StudentMapper" >
+  <resultMap id="BaseResultMap" type="cn.oneseek.student.entity.Student" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="sno" property="sno" jdbcType="VARCHAR" />
+    <result column="sname" property="sname" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="VARCHAR" />
+    <result column="bjid" property="bjid" jdbcType="INTEGER" />
+  </resultMap>
+
+  <resultMap type="cn.oneseek.student.entity.Student" id="StudentWithBj">
+    <association property="bj" column="bjid" select="cn.oneseek.student.dao.BjMapper.findById"/>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, sno, sname, sex, bjid
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="StudentWithBj" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from student
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from student
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.oneseek.student.entity.Student" >
+    insert into student (id, sno, sname, 
+      sex, bjid)
+    values (#{id,jdbcType=INTEGER}, #{sno,jdbcType=VARCHAR}, #{sname,jdbcType=VARCHAR}, 
+      #{sex,jdbcType=VARCHAR}, #{bjid,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.oneseek.student.entity.Student" >
+    insert into student
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="sno != null" >
+        sno,
+      </if>
+      <if test="sname != null" >
+        sname,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="bj.id != null" >
+        bjid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="sno != null" >
+        #{sno,jdbcType=VARCHAR},
+      </if>
+      <if test="sname != null" >
+        #{sname,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="bjid != null" >
+        #{bj.id,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.oneseek.student.entity.Student" >
+    update student
+    <set >
+      <if test="sno != null" >
+        sno = #{sno,jdbcType=VARCHAR},
+      </if>
+      <if test="sname != null" >
+        sname = #{sname,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="bj.id != null" >
+        bjid = #{bj.id,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.oneseek.student.entity.Student" >
+    update student
+    set sno = #{sno,jdbcType=VARCHAR},
+      sname = #{sname,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=VARCHAR},
+      bjid = #{bj.id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="queryAll" resultType="Student">
+    select * from student
+  </select>
+  <select id="queryAllWithBj"  resultMap="StudentWithBj">
+    select * from student
+  </select>
+  <insert id="add" parameterType="Student"  >
+    insert into student values(null,#{sno},#{sname},#{sex},#{bj.id})
+  </insert>
+</mapper>

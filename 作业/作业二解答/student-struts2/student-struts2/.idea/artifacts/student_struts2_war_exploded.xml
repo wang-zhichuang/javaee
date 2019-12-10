@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="student-struts2:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/student_struts2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="student-struts2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="student-struts2/web/Web" />
+    </root>
+  </artifact>
+</component>

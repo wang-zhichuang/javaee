@@ -1,0 +1,42 @@
+1、在web.xml中配置struts2中心控制器（过滤器）
+<filter>
+    <filter-name>struts2</filter-name>
+    <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+</filter>
+ <filter-mapping>
+    <filter-name>struts2</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+2、Struts2配置文件：struts.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+   <package name=""  extends="struts-default">
+        <action name="helloworld" class="" method="execute" >
+	  <result name="success">/hello.jsp</result>
+        </action>
+    </package> 
+</struts>
+
+注意：
+(1)namespace可省略，默认值为""
+(2)namespace="/test"和result中的/代表web根目录，不要省略。
+(3)开发阶段，通常在<struts>节点下加上设置
+<constant name="struts.configuration.xml.reload" value="true"/>
+这样配置文件改变不用重新部署。
+
+3、使用struts2标签的taglib指令：
+<%@ taglib prefix="s" uri="/struts-tags"%>
+
+4、注解方式配置action
+类前：
+@Namespace("/bj")
+方法前：
+@Action(value="/list",results={
+	@Result(name="success",location="/bj/list.jsp"),
+	@Result(name="error",location="/error.jsp")
+	})
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.StudentDao">	
+	
+	
+	<resultMap type="Student" id="StudentWithBj">	
+	 <association property="bj" column="bjid" select="dao.BjDao.findById"/>	
+	</resultMap>
+	
+	<insert id="add" parameterType="Student"  >
+		insert into student values(null,#{sno},#{sname},#{sex},#{bj.id})
+	</insert>
+	<update id="update" parameterType="Student">
+		update student set sno=#{sno},sname=#{sname},sex=#{sex},bjid=#{bj.id} where id=#{id}
+	</update>
+	
+	<delete id="delete" parameterType="Integer">
+		delete from student where id=#{id}
+	</delete>
+	
+	<select id="findById" parameterType="Integer" resultMap="StudentWithBj">
+		select * from student where student.id=#{id}
+	</select>
+	
+	<select id="queryAll"  resultType="Student">
+		select * from student
+	</select>
+	
+	<select id="queryAllWithBj"  resultMap="StudentWithBj">
+		select * from student
+	</select>
+</mapper> 

@@ -1,0 +1,3 @@
+（1）pom.xml中打包方式为jar
+（2）pom.xml添加thymeleaf依赖。
+（3）thymeleaf模板文件(*.html)放在templates下。

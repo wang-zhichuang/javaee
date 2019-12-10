@@ -1,0 +1,6 @@
+1、访问地址：http://localhost:8080/springspringmvc/p1/controller1.do
+2、思路：将controller（spring mvc本身已经实现）、service对象交由spring管理。
+3、关键步骤
+（1）web.xml中添加上下文参数和监听器，用于启动ioc容器。
+（2）注意bean.xml，spring-mvc.xml扫描的包不要重复。
+（3）Controller，Service，Resource注解的使用

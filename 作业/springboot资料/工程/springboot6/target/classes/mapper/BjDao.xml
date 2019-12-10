@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sdau.example.springboot1.dao.BjDao">	
+
+	
+	<resultMap type="Bj" id="BjWithStudents">
+		<collection property="students" column="id" select="selectStudents"></collection>
+	</resultMap>
+	<insert id="add" parameterType="Bj"  >
+		insert into bj values(null,#{bjname})
+	</insert>
+	<update id="update" parameterType="Bj">
+		update bj set bjname=#{bjname} where id=#{id}
+	</update>
+	
+	<delete id="delete" parameterType="Integer">
+		delete from bj where id=#{id}
+	</delete>
+	
+	<select id="findById" parameterType="Integer" resultType="Bj">
+		select * from bj where id=#{id}
+	</select>
+	
+	<select id="queryAll" resultType="Bj">
+		select * from bj
+	</select>
+	
+	<select id="findByIdWithStudents" parameterType="int" resultMap="BjWithStudents">
+		select * from bj where id=#{id}
+	</select>
+	
+	<select id="selectStudents" parameterType="int" resultType="Student">
+	   select * from student where bjid = #{id}	
+	</select> 
+</mapper> 

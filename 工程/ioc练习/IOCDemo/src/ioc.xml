@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<bean class="com.woniu.dao.UserDao" id="userDao"/>
+	<bean class="com.woniu.service.UserService" id="userService">
+		<property name="userDao" ref="userDao"/>
+	</bean>
+</root>

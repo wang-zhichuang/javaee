@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>  
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>编辑班级</title>  
+    <style>   
+      
+    </style>  
+<body>  
+<form action="/bj/update" method="post">
+班级名称:<input  name="bjname" th:value="${bj.bjname}"/>
+<input type="hidden" name="id" th:value="${bj.id}"/>
+<input type="submit" value="修改"/>
+</form>
+<h3 th:text="${info}"></h3>
+
+</body>  
+</html>  

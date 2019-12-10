@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>  
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>编辑学生</title>  
+    <style>   
+      
+    </style>  
+<body>  
+
+<form action="/student/update" method="post">
+学号:<input type="text" name="sno" th:value="${student.sno}"/><br>
+姓名：<input type="text" name="sname" th:value="${student.sname}"/><br>
+性别：<input type="radio" name="sex" th:value="男" th:attr="checked=${student.sex=='男'?true:false}">男
+<input type="radio" name="sex" th:value="女" th:attr="checked=${student.sex=='女'?true:false}">女
+<br>
+班级:
+<!--<select th:field="bj.id">-->
+<!--<th:each items="${bjList}" var="bj">-->
+<!--<option th:value="${bj.id}" th:attr="checked=${student.bj.id==bj.id}?true:false}">selected</c:if>>${bj.bjname}</option>-->
+<!--</th:each>-->
+<!--</select>-->
+    <select name="bj.id" lay-verify="required">
+        <option th:each="bj:${bjList}" th:value="${bj.id}" th:text="${bj.bjname}">
+        </option>
+    </select>
+<br>
+<input type="hidden" name="id" th:value="${student.id}"/>
+<input type="submit" value="修改"/>
+</form>
+<h3 th:text="${info}"></h3>
+</body>
+</html>  

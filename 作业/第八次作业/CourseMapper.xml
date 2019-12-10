@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao.CourseMapper" >
+
+  <select id="queryByPageNo" parameterType="Map" resultType="Course">
+        select * from course where 1=1
+        <if test="kcm != null and kcm != ''">
+            and kcm like concat('%',concat(#{kcm},'%'))
+        </if>
+        <if test="sksj != null and sksj != ''">
+            and sksj like concat('%',concat(#{sksj},'%'))
+        </if>
+        <if test="skdd != null and skdd != ''">
+            and skdd like concat('%',concat(#{skdd},'%'))
+        </if>
+        <if test="rkjs1 != null and rkjs1 != ''">
+            and rkjs1 like concat('%',concat(#{rkjs1},'%'))
+        </if>
+        limit #{startPage},#{pageSize}
+  </select>
+
+
+  <select id="recordCount" parameterType="Map" resultType="java.lang.Integer">
+    select count(*) from course where 1=1
+    <if test="kcm != null and kcm != ''">
+     and kcm like concat('%',concat(#{kcm},'%'))
+    </if>
+    <if test="sksj != null and sksj != ''">
+      and sksj like concat('%',concat(#{sksj},'%'))
+    </if>
+    <if test="skdd != null and skdd != ''">
+      and skdd like concat('%',concat(#{skdd},'%'))
+    </if>
+    <if test="rkjs1 != null and rkjs1 != ''">
+      and rkjs1 like concat('%',concat(#{rkjs1},'%'))
+    </if>
+
+  </select>
+</mapper>

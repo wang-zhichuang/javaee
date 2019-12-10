@@ -1,0 +1,10 @@
+思路及步骤：
+本例采用注解（@Transactional）的事务管理方法。
+(1) 在bean.xml中配置事务管理器并添加基于注解的事务配置选项
+<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    	<property name="dataSource" ref="dataSource"></property>
+    </bean>
+<!--使用基于注解方式配置事务 -->
+<tx:annotation-driven transaction-manager="txManager"/>
+(2)在需要放入事务中的类（如果该类所有方法都需要放入事务）或方法前添加@Transactional注解。
+

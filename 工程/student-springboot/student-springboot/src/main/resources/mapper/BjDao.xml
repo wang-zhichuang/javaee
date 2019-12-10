@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.oneseek.studentspringboot.dao.BjDao">
+	
+	<insert id="add" parameterType="Bj">
+		insert into bj values(null,#{bjname})
+	</insert>
+	<update id="update" parameterType="Bj">
+		update bj set bjname=#{bjname} where id=#{id}
+	</update>
+	
+	<delete id="delete" parameterType="Integer">
+		delete from bj where id=#{id}
+	</delete>
+	
+	<select id="findById" parameterType="Integer" resultType="Bj">
+		select * from bj where id=#{id}
+	</select>
+	
+	<select id="queryAll" resultType="Bj">
+		select * from bj
+	</select>
+</mapper>

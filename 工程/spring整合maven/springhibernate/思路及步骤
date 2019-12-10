@@ -1,0 +1,5 @@
+思路：由Spring容器管理SessionFactory对象及事务（session打开、关闭，事务开启、提交、回滚不再需要手写代码）。
+关键步骤：
+（1）bean.xml
+(2) hibernate.cfg.xml
+(3)获取session的方法：SessionFactory.getCurrentSession().

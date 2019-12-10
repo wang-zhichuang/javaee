@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c99ae143-2b21-4dd3-bdcf-c898f500f77c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../作业/course.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/artifacts/course_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/WebContent/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/WebContent/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/WebContent/courseList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/build/classes/META-INF/course.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/build/classes/dao/CourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/build/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/build/classes/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/build/classes/servlet/CourseQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/build/classes/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/classes/META-INF/course.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/classes/dao/CourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/classes/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/classes/servlet/CourseQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/classes/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/classes/artifacts/course_war_exploded/courseList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/course.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/src/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/src/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/src/servlet/CourseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/src/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/course_maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/java/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/java/dao/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/java/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/java/util/SqlSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/resources/mapping/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/main/webapp/courseList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/META-INF/course_maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/mapping/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/META-INF/course_maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/dao/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/mapping/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/classes/util/SqlSessionFactoryUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/jsp-api-2.2.1-b03.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-context-support-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-oxm-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-test-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/courseList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_maven/target/course_maven/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/dsf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dsf/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/vo/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/java/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/java/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/java/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/java/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/webapp/courseList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/classes/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/classes/dao/CourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/classes/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/classes/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/META-INF/course_maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/dao/CourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/classes/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/jsp-api-2.2.1-b03.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-context-support-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-oxm-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-test-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/courseList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../备份/course_maven/target/course_maven/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/.idea/artifacts/student_springmvc_maven_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../student-springmvc-maven/.idea/artifacts/student_springmvc_maven_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/.idea/libraries/Maven__com_alibaba_druid_1_1_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../student-springmvc-maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/src/main/java/cn/oneseek/student/controller/BjController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../student-springmvc-maven/src/main/java/cn/oneseek/student/controller/BjController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/src/main/java/cn/oneseek/student/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/第八次作业/spring+mybatis.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student-springmvc-maven/student-springmvc-maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../student-springmvc-maven/student-springmvc-maven.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1TB3mPYVPxgJs4038VyI7FLMB4n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/vo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.20478326" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\课程文件\JavaEE\工程\generator\src\vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\课程文件\JavaEE\工程\generator\src\vo" />
+      <recent name="D:\课程文件\JavaEE\工程\generator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetaDataTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MetaDataTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MetaDataTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c99ae143-2b21-4dd3-bdcf-c898f500f77c" name="Default Changelist" comment="" />
+      <created>1572919819722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572919819722</updated>
+      <workItem from="1572919824680" duration="6249000" />
+      <workItem from="1572928549182" duration="8000" />
+      <workItem from="1572929979632" duration="817000" />
+      <workItem from="1573003769718" duration="1542000" />
+      <workItem from="1573288332360" duration="215000" />
+      <workItem from="1573288577743" duration="515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

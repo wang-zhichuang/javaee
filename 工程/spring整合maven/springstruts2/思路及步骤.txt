@@ -1,0 +1,7 @@
+1、访问地址：http://localhost:8080/springstruts/p1/action1
+2、思路：将Action生命周期由原本的Struts进行管理，交由Spring进行管理 
+3、关键步骤
+（1）两框架集成需要的jar包：struts2-spring-plugin-2.3.24.jar
+（2）web.xml中添加上下文参数和监听器，用于启动ioc容器。
+（3）struts中指定objectFacotory为spring。
+（4）Controller，Service，Resource注解的使用

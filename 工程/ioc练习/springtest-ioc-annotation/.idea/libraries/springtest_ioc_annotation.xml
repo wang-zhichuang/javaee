@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="springtest-ioc-annotation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring-beans-4.1.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring-aop-4.1.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring-context-4.1.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring-expression-4.1.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring-core-4.1.6.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

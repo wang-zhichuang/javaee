@@ -1,0 +1,12 @@
+1资料：
+基于xml的spring aop实现：工程springtest-aop-xml
+基于注解的spring aop实现：工程springtest-aop-annotation
+spring的maven工程：工程springmaven
+2要求
+（1）叙述基于xml的spring aop实现过程。
+（2）叙述基于注解的spring aop实现过程。
+（3）通知有哪几种类型，执行前后顺序？
+（4）方面类中如何获取拦截方法的方法名，参数值，执行结果等信息？
+（5）运用spring aop对spring maven工程中service.UserSerive的login方法添加日志（可调用util下工具类）：
+用户登录时，记录一条日志，日志包含时间、登录用户名，密码、登录是否成功等信息。提交所有改动代码
+（包括方面类、配置文件，main方法，日志结果截图等。。）。

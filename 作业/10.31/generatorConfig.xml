@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <classPathEntry location="C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.17.jar"/>
+    <context id="context1">
+        <!-- 生成一对多配置 -->
+        <plugin type="cc.bandaotixi.plugins.OneToManyPlugin" />
+        <commentGenerator type="cc.bandaotixi.plugins.BDTCommentGenerator">
+            <property name="javaFileEncoding" value="UTF-8"/>
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="false" />
+        </commentGenerator>
+<!--        &lt;!&ndash; 是否生成注释 &ndash;&gt;-->
+<!--        <commentGenerator>-->
+<!--            <property name="suppressDate" value="true"/>-->
+<!--            <property name="suppressAllComments" value="true"/>-->
+<!--        </commentGenerator>-->
+        <!-- 数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/student?allowPublicKeyRetrieval=true&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=GMT&amp;useSSL=false"
+                        userId="root" password="mysql" />
+
+        <!-- 生成的包名和工程名 -->
+        <javaModelGenerator targetPackage="cn.oneseek.student.entity"
+                            targetProject="src/main/java"/>
+        <!-- xml映射文件   -->
+        <sqlMapGenerator targetPackage="cn.oneseek.student.mapping"
+                         targetProject="src/main/java" />
+        <!--  mapper接口    -->
+        <javaClientGenerator targetPackage="cn.oneseek.student.dao"
+                             targetProject="src/main/java" type="XMLMAPPER" />
+
+        <!-- 数据库表 以及是否生成example-->
+        <table  tableName="student" domainObjectName="Student"
+                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+                enableSelectByExample="false" selectByExampleQueryId="false" >
+
+        </table>
+        <table  tableName="bj" domainObjectName="Bj"
+                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+                enableSelectByExample="false" selectByExampleQueryId="false" >
+        </table>
+
+        <table tableName="bj" domainObjectName="Bj">
+            <generatedKey column="bjid" sqlStatement="MySql" identity="true" />
+            <!--映射的表必须配置table-->
+        </table>
+    </context>
+</generatorConfiguration>

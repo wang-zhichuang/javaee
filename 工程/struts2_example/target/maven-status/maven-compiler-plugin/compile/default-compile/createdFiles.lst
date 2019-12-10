@@ -1,0 +1,8 @@
+cn\oneseek\struts2\actions\BjAction.class
+cn\oneseek\struts2\dao\BjDao.class
+cn\oneseek\struts2\vo\Bj.class
+cn\oneseek\struts2\actions\AddAction.class
+cn\oneseek\struts2\dao\StudentDao.class
+cn\oneseek\struts2\actions\StudentAction.class
+cn\oneseek\struts2\util\JdbcUtil.class
+cn\oneseek\struts2\vo\Student.class
